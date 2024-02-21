@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cabecalho{
+    @apply flex justify-between p-10 bg-stone-600 text-white;
+}
+.menu__lista{
+    @apply flex gap-3;
+}
